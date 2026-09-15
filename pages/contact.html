@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Vertex Solutions">
+    <title>Contact | Vertex Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar" id="site-nav">
+            <a class="logo" href="../index.html">Vertex Solutions</a>
+            <button type="button" class="menu-button" aria-controls="navbar-list" aria-expanded="false">
+                <span class="menu-bar menu-bar-top"></span>
+                <span class="menu-bar menu-bar-mid"></span>
+                <span class="menu-bar menu-bar-bottom"></span>
+                <span class="visually-hidden">Menu</span>
+            </button>
+            <ul class="navbar-list" id="navbar-list">
+                <li><a href="../index.html#mission">Mission</a></li>
+                <li><a href="../index.html#history">History</a></li>
+                <li><a href="../index.html#innovation">Innovation</a></li>
+                <li><a href="../index.html#approach">Approach</a></li>
+                <li><a href="../index.html#sustainability">Sustainability</a></li>
+                <li><a href="../index.html#empowerment">Empowerment</a></li>
+                <li><a href="../index.html#ethic">Ethic</a></li>
+                <li><a href="../index.html#vision">Vision</a></li>
+                <li><a class="nav-cta" href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <p class="eyebrow eyebrow-on-light">Contact</p>
+        <h1>Contact Us</h1>
+        <p class="contact-intro">Have a question or want to work together? Write us or drop by the studio.</p>
+
+        <div class="contact-layout">
+            <aside class="contact-details">
+                <article class="contact-card">
+                    <h2>Studio</h2>
+                    <address>
+                        428 Market Street, Suite 12<br>
+                        San Francisco, CA 94105
+                    </address>
+                </article>
+                <article class="contact-card">
+                    <h2>Email</h2>
+                    <p><a href="mailto:hello@vertexsolutions.com">hello@vertexsolutions.com</a></p>
+                </article>
+                <article class="contact-card">
+                    <h2>Phone</h2>
+                    <p><a href="tel:+14155550198">+1 (415) 555-0198</a></p>
+                </article>
+                <article class="contact-card">
+                    <h2>Hours</h2>
+                    <p>
+                        Mon–Fri,
+                        <time datetime="09:00">9:00</time>–<time datetime="18:00">18:00</time> PT<br>
+                        Closed on weekends
+                    </p>
+                </article>
+            </aside>
+
+            <form class="contact-form" action="#" method="get">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Jane Doe" required maxlength="80">
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="jane@email.com" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="How can we help?" required minlength="10"></textarea>
+
+                <button class="button button-solid" type="submit">Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Vertex Solutions. All rights reserved.</p>
+        <a href="../index.html">Back to home</a>
+    </footer>
+    <script src="../js/menu.js"></script>
+</body>
+</html>
